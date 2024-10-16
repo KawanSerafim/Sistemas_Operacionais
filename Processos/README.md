@@ -99,7 +99,7 @@
 
     - [ ❌ ] 1 - *O primeiro, chamado os, que identifica e retorna o nome do Sistema Operacional (Fazê-lo privado).*
 
-    - [ ❌ ] - *O segundo, chamado exibeDistro, que verifica o SO e, se for Linux, selecione o comando para exibir as propriedades da distribuição. Deve-se exibir o nome e a versão da distribuição. Caso o SO não seja Linux, exibir uma mensagem comunicando.*
+    - [ ❌ ] 2 - *O segundo, chamado exibeDistro, que verifica o SO e, se for Linux, selecione o comando para exibir as propriedades da distribuição. Deve-se exibir o nome e a versão da distribuição. Caso o SO não seja Linux, exibir uma mensagem comunicando.*
 
 - [ ❌ ] - *A classe Main.java deve ter um chamado para a exibição das informações.*
 
