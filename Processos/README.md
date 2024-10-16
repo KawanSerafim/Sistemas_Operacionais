@@ -14,8 +14,8 @@
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]]()
-- [☕] - [[RedesController.java]]()
+- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/view/Principal.java)
+- [☕] - [[RedesController.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/controller/RedesController.java)
 
 ### Descrição:
 
@@ -52,7 +52,7 @@
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]]()
+- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/view/Principal.java)
 - [☕] - [[KillController.java]]()
 
 ### Descrição:
@@ -88,7 +88,7 @@
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]]()
+- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/view/Principal.java)
 - [☕] - [[DistroController.java]]()
 
 ### Descrição:
@@ -131,7 +131,7 @@
 
 - [ ❌ ] - *No package view, deve ser criado, com auxílio do framework, conforme figura abaixo, uma tela com um JTextField e 3 botões (OK, Cancelar e Procurar).*
 
-![Figura]()
+![Figura](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/Imagens/Imagem%20do%20WhatsApp%20de%202024-10-16%20à(s)%2010.21.40_4f4fabc8.jpg)
 
 - [ ❌ ] - *No package controller, devemos ter:*
 
