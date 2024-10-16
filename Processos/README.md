@@ -10,30 +10,30 @@
 
 - Nesses exercícios foi utilizada uma VM, chamada Virtual Box, para simular uma máquina com o Linux Debian, a fins de resolver algoritmos java em Sistemas Operacionais além do Windows.
 
-## [ ❌ ] Exercício 1
+## [ ✔️ ] Exercício 1
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/view/Principal.java)
-- [☕] - [[RedesController.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/controller/RedesController.java)
+- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/processos/view/Principal.java)
+- [☕] - [[RedesController.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/processos/controller/RedesController.java)
 
 ### Descrição:
 
-- [ ❌ ] - *Criar, em um Java Project, uma classe chamada RedesController.java no package controller e uma classe Main.java no package view.*
+- [ ✔️ ] - *Criar, em um Java Project, uma classe chamada RedesController.java no package controller e uma classe Main.java no package view.*
 
-- [ ❌ ] - *A classe RedesController.java deve ter 3 métodos.*
+- [ ✔️ ] - *A classe RedesController.java deve ter 3 métodos.*
 
-    - [ ❌ ] 1 - *O primeiro, chamado os, que identifica e retorna o nome do Sistema Operacional (Fazê-lo privado)*
+    - [ ✔️ ] 1 - *O primeiro, chamado os, que identifica e retorna o nome do Sistema Operacional (Fazê-lo privado)*
 
-    - [ ❌ ] 2 - *O segundo, chamado ip, que verifica o Sistema Operacional e, de acordo com o S.O., faz a chamada de configuração de IP.*
+    - [ ✔️ ] 2 - *O segundo, chamado ip, que verifica o Sistema Operacional e, de acordo com o S.O., faz a chamada de configuração de IP.*
 
-        - [ ❌ ] 2.1 - *A leitura do processo chamado deve verificar cada linha e, imprimir, apenas, o nome do adaptador de rede e o IPv4, portanto, adaptadores sem IPv4 não devem ser mostrados.*
+        - [ ✔️ ] 2.1 - *A leitura do processo chamado deve verificar cada linha e, imprimir, apenas, o nome do adaptador de rede e o IPv4, portanto, adaptadores sem IPv4 não devem ser mostrados.*
 
-    - [ ❌ ] 3 - *O terceiro, chamado ping, que verifica o Sistema Operacional e, de acordo com o S.O. e, faz a chamada de ping em IPv4 com 10 iterações.*
+    - [ ✔️ ] 3 - *O terceiro, chamado ping, que verifica o Sistema Operacional e, de acordo com o S.O. e, faz a chamada de ping em IPv4 com 10 iterações.*
 
-        - [ ❌ ] 3.1 - *A leitura do processo chamado deve verificar as linhas de saída e exibir, apenas, o tempo médio do ping. O teste de ping deve ser feito com a URL www.google.com.br*
+        - [ ✔️ ] 3.1 - *A leitura do processo chamado deve verificar as linhas de saída e exibir, apenas, o tempo médio do ping. O teste de ping deve ser feito com a URL www.google.com.br*
 
-- [ ❌ ] - *A Classe Main.java deve dar as opções de chamadas do método ip ou do método ping com JOptionPane e, dependendo da escolha, instanciar a Classe RedesController.java e chamar o método escolhido. A opção de finalizar a aplicação também deve estar disponível.*
+- [ ✔️ ] - *A Classe Main.java deve dar as opções de chamadas do método ip ou do método ping com JOptionPane e, dependendo da escolha, instanciar a Classe RedesController.java e chamar o método escolhido. A opção de finalizar a aplicação também deve estar disponível.*
 
 ## **Tecnologia(s) utilizadas neste exercício 💻**
 <div style="display: inline_block">
@@ -52,7 +52,7 @@
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/view/Principal.java)
+- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/processos/view/Principal.java)
 - [☕] - [[KillController.java]]()
 
 ### Descrição:
@@ -88,7 +88,7 @@
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/view/Principal.java)
+- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/processos/view/Principal.java)
 - [☕] - [[DistroController.java]]()
 
 ### Descrição:
