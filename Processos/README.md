@@ -8,7 +8,7 @@
 
 ## Breve Contexto
 
-    Nesses exercícios foi utilizada uma VM, chamada Virtual Box, para simular uma máquina com o Linux Debian, a fins de resolver algoritmos java em Sistemas Operacionais além do Windows.
+- Nesses exercícios foi utilizada uma VM, chamada Virtual Box, para simular uma máquina com o Linux Debian, a fins de resolver algoritmos java em Sistemas Operacionais além do Windows.
 
 ## [ ❌ ] Exercício 1
 
