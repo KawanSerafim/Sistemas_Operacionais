@@ -14,8 +14,8 @@
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/processos/view/Principal.java)
-- [☕] - [[RedesController.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/processos/controller/RedesController.java)
+- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/view/Principal.java)
+- [☕] - [[RedesController.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/controller/RedesController.java)
 
 ### Descrição:
 
@@ -52,7 +52,7 @@
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/processos/view/Principal.java)
+- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/view/Principal.java)
 - [☕] - [[KillController.java]]()
 
 ### Descrição:
@@ -88,7 +88,7 @@
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/processos/view/Principal.java)
+- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/view/Principal.java)
 - [☕] - [[DistroController.java]]()
 
 ### Descrição:
