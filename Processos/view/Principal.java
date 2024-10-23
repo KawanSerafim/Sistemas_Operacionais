@@ -1,10 +1,10 @@
-package processos.view;
+package Processos.view;
 
 import java.io.IOException;
 import javax.swing.JOptionPane;
 
-import processos.controller.KillController;
-import processos.controller.RedesController;
+import Processos.controller.RedesController;
+import Processos.controller.KillController;
 
 public class Principal {
 
