@@ -57,11 +57,11 @@
 
 ### Descrição:
 
-- [ ❌ ] - *Criar, em Java Project, uma classe chamada KillController.java no package controller e uma classe Main.java no package view.*
+- [ ✔️ ] - *Criar, em Java Project, uma classe chamada KillController.java no package controller e uma classe Main.java no package view.*
 
 - [ ❌ ] - *A classe KillController.java deve ter 4 métodos.*
 
-    - [ ❌ ] 1 - *O primeiro, chamado os, que identifica e retorna o nome do Sistema Operacional (Fazê-lo privado).*
+    - [ ✔️ ] 1 - *O primeiro, chamado os, que identifica e retorna o nome do Sistema Operacional (Fazê-lo privado).*
 
     - [ ❌ ] 2 - *O segundo, chamado listaProcessos, que verifica o SO e, de acordo com SO, selecione o comando para listar os processos ativos.*
 
