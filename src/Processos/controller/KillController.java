@@ -1,9 +1,11 @@
-package Processos.controller;
+package processos.controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+
+@SuppressWarnings("deprecation")
 
 public class KillController {
     
@@ -18,11 +20,11 @@ public class KillController {
         return System.getProperty("os.name");
 
     }
-
-    public String listaProcesso() throws IOException {
+    
+	public String listaProcesso() throws IOException {
 
         if(os().contains("Windows")) {
-
+        	
             Process p = Runtime.getRuntime().exec("TASKLIST /FO TABLE");
             InputStream fluxo = p.getInputStream();
             InputStreamReader leitor = new InputStreamReader(fluxo);
@@ -74,8 +76,8 @@ public class KillController {
         }
 
     }
-
-    public String mataPid(int pid) throws IOException {
+    
+	public String mataPid(int pid) throws IOException {
 
         if(os().contains("Windows")) {
 

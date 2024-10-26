@@ -1,9 +1,11 @@
-package Processos.controller;
+package processos.controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+
+@SuppressWarnings("deprecation")
 
 public class RedesController {
 	
