@@ -38,6 +38,7 @@ public class Principal {
 
                     case 3:
 
+                        exercicio_3();
                         break;
 
                     case 4:
