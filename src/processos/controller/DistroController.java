@@ -46,6 +46,8 @@ public class DistroController {
 
                 }
 
+                linha = buffer.readLine();
+
             }
 
             fluxo.close();
