@@ -48,6 +48,10 @@ public class DistroController {
 
             }
 
+            fluxo.close();
+            leitor.close();
+            buffer.close();
+
             return copia.toString();
 
         } else {
