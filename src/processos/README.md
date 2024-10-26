@@ -48,7 +48,7 @@
 
 ========================================================================================================================================================================================
 
-## [ ❌ ] Exercício 2
+## [ ✔️ ] Exercício 2
 
 (🗺️) - Classes:
 
@@ -59,7 +59,7 @@
 
 - [ ✔️ ] - *Criar, em Java Project, uma classe chamada KillController.java no package controller e uma classe Main.java no package view.*
 
-- [ ❌ ] - *A classe KillController.java deve ter 4 métodos.*
+- [ ✔️ ] - *A classe KillController.java deve ter 4 métodos.*
 
     - [ ✔️ ] 1 - *O primeiro, chamado os, que identifica e retorna o nome do Sistema Operacional (Fazê-lo privado).*
 
@@ -69,7 +69,11 @@
 
     - [ ✔️ ] 3 - *O terceiro, chamado mataPid, que recebe um PID como parâmetro de entrada, verifica o SO e, de acordo com SO, selecione o comando para matar o processo e o finalize.*
 
-    - [ ❌ ] 4 - *O quarto, chamado mataNome, que recebe um nome de processo como parâmetro de entrada, verifica o SO e, de acordo com SO, selecione o comando para matar o processo e o finalize.*
+    - [ ✔️ ] 4 - *O quarto, chamado mataNome, que recebe um nome de processo como parâmetro de entrada, verifica o SO e, de acordo com SO, selecione o comando para matar o processo e o finalize.*
+
+- [ ❌ ] - *Ideias adicionais(minhas).*
+
+    - [ ❌ ] *Para cada método de matar processo, identificar se de fato matou. Caso não, enviar mensagem dizendo que não conseguiu finalizar o processo*.
 
 ## **Tecnologia(s) utilizadas neste exercício 💻**
 <div style="display: inline_block">
