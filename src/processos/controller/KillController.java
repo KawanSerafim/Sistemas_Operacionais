@@ -97,4 +97,24 @@ public class KillController {
 
     }
 
+    public String mataNome(String nome) throws IOException {
+
+        if(os().contains("Windows")) {
+
+            Runtime.getRuntime().exec("TASKKILL /IM " + nome);
+            return "Processo finalizado.";
+
+        } else if(os().contains("Linux")) {
+
+            Runtime.getRuntime().exec("pkill -f " + nome);
+            return "Processo finalizado.";
+
+        } else {
+
+            return "Não há versão para seu SO.";
+
+        }
+
+    }
+
 }

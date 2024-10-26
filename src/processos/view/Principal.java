@@ -124,15 +124,16 @@ public class Principal {
 
                 case 2:
 
-                    int pid;
-
-                    pid = Integer.parseInt(JOptionPane.showInputDialog("Digite o PID do processo"));
+                    int pid = Integer.parseInt(JOptionPane.showInputDialog("Digite o PID do processo."));
 
                     JOptionPane.showMessageDialog(null, killController.mataPid(pid));
                     break;
 
                 case 3:
 
+                    String nome = JOptionPane.showInputDialog("Digite o nome do processo.");
+
+                    JOptionPane.showMessageDialog(null, killController.mataNome(nome));
                     break;
 
                 case 0:
