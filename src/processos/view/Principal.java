@@ -4,6 +4,7 @@ import java.io.IOException;
 import javax.swing.JOptionPane;
 
 import processos.controller.RedesController;
+import processos.controller.DistroController;
 import processos.controller.KillController;
 
 public class Principal {
@@ -137,7 +138,7 @@ public class Principal {
                     break;
 
                 case 0:
-            
+
                     break;
 
                 default:
@@ -152,7 +153,8 @@ public class Principal {
 
     public static void exercicio_3() throws IOException {
 
-
+        DistroController distroController = new DistroController();
+        JOptionPane.showMessageDialog(null, distroController.exibeDistro());
 
     }
 

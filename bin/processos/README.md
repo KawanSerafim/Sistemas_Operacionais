@@ -53,7 +53,7 @@
 (🗺️) - Classes:
 
 - [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/view/Principal.java)
-- [☕] - [[KillController.java]]()
+- [☕] - [[KillController.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/controller/KillController.java)
 
 ### Descrição:
 
@@ -97,15 +97,15 @@
 
 ### Descrição:
 
-- [ ❌ ] - *Criar, em Java Project, uma classe chamada DistroController.java no package controller e uma classe Main.java no package view.*
+- [ ✔️ ] - *Criar, em Java Project, uma classe chamada DistroController.java no package controller e uma classe Main.java no package view.*
 
-- [ ❌ ] - *A classe DistroController.java deve ter 2 métodos.*
+- [ ✔️ ] - *A classe DistroController.java deve ter 2 métodos.*
 
-    - [ ❌ ] 1 - *O primeiro, chamado os, que identifica e retorna o nome do Sistema Operacional (Fazê-lo privado).*
+    - [ ✔️ ] 1 - *O primeiro, chamado os, que identifica e retorna o nome do Sistema Operacional (Fazê-lo privado).*
 
-    - [ ❌ ] 2 - *O segundo, chamado exibeDistro, que verifica o SO e, se for Linux, selecione o comando para exibir as propriedades da distribuição. Deve-se exibir o nome e a versão da distribuição. Caso o SO não seja Linux, exibir uma mensagem comunicando.*
+    - [ ✔️ ] 2 - *O segundo, chamado exibeDistro, que verifica o SO e, se for Linux, selecione o comando para exibir as propriedades da distribuição. Deve-se exibir o nome e a versão da distribuição. Caso o SO não seja Linux, exibir uma mensagem comunicando.*
 
-- [ ❌ ] - *A classe Main.java deve ter um chamado para a exibição das informações.*
+- [ ✔️ ] - *A classe Main.java deve ter um chamado para a exibição das informações.*
 
 ## **Tecnologia(s) utilizadas neste exercício 💻**
 <div style="display: inline_block">
