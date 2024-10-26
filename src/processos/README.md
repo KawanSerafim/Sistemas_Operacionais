@@ -135,7 +135,7 @@
 
 - [ ❌ ] - *No package view, deve ser criado, com auxílio do framework, conforme figura abaixo, uma tela com um JTextField e 3 botões (OK, Cancelar e Procurar).*
 
-![Figura](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/Processos/Imagens/Imagem%20do%20WhatsApp%20de%202024-10-16%20à(s)%2010.21.40_4f4fabc8.jpg)
+![Figura](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/imagens/Imagem%20do%20WhatsApp%20de%202024-10-16%20à(s)%2010.21.40_4f4fabc8.jpg)
 
 - [ ❌ ] - *No package controller, devemos ter:*
 
