@@ -35,17 +35,8 @@ public class RunController implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		
-		if(textCaminho.getText().contains("")) {
-			
-			JOptionPane.showMessageDialog(null, "Arquivo não encontrado.");
-			
-		} else {
-			
-			abreArquivo();
-			
-		}
+
+		abreArquivo();
 
 	}
-
 }
