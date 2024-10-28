@@ -6,7 +6,7 @@
 
     [ ✔️ ] - Finalizado.
 
-    [ 🛠️ ] - Finalizado, porém, não está 100% fiel ao que foi pedido. Portanto, passível a mudanças futuras.
+    [ 🛠️ ] - Finalizado, porém, não está tão fiel ao que foi pedido. Portanto, passível a mudanças futuras.
 
 ## Breve Contexto
 
