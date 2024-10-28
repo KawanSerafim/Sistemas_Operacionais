@@ -5,7 +5,7 @@
 - No primeiro semestre de Sistemas Operacionais, serão trabalhados diversos conteúdos teóricos e práticos. Visando ressaltar só a parte prática, os temas serão:
 
 - 📌 [Processos](https://github.com/KawanSerafim/Sistemas_Operacionais/tree/main/src/processos)
-- 📌 [Threads]()
+- 📌 [Threads](https://github.com/KawanSerafim/Sistemas_Operacionais/tree/main/src/threads)
 - 📌 [Semaforos]()
 - 📌 [Deadlocks - Algoritmo do Banqueiro]()
 - 📌 [Dockers]()
