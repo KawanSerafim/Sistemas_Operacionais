@@ -145,6 +145,10 @@
 
     - [ 🛠️ ] - *Uma classe, chamada CancelController, que receba o próprio JFrame da tela pelo construtor, implementa um ActionListener para executar a ação do botão Cancelar. O método actionPerformed deve proceder um dispose() da tela.*
 
+- *Como ficou a tela:*
+
+![Figura](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/imagens/Imagem%20do%20WhatsApp%20de%202024-10-28%20à(s)%2018.00.22_274a5597.jpg)
+
 ## **Tecnologia(s) utilizadas neste exercício 💻**
 <div style="display: inline_block">
     <img align="center" alt="html5" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
