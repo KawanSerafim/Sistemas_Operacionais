@@ -3,9 +3,10 @@ package processos.view;
 import java.io.IOException;
 import javax.swing.JOptionPane;
 
-import processos.controller.RedesController;
-import processos.controller.DistroController;
-import processos.controller.KillController;
+import processos.controller.exerciciosprincipais.DistroController;
+import processos.controller.exerciciosprincipais.KillController;
+import processos.controller.exerciciosprincipais.RedesController;
+import processos.view.desafio.TelaExecutar;
 
 public class Principal {
 
@@ -42,7 +43,9 @@ public class Principal {
                         break;
 
                     case 4:
-
+                    	
+                    	exercicio_4();
+                    	opcao = 0;
                         break;
 
                     case 0:
@@ -157,6 +160,12 @@ public class Principal {
         DistroController distroController = new DistroController();
         JOptionPane.showMessageDialog(null, distroController.exibeDistro());
 
+    }
+    
+    public static void exercicio_4() throws IOException {
+    	
+    	TelaExecutar.main(null);
+    	
     }
 
 }

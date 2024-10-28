@@ -1,4 +1,4 @@
-package processos.controller;
+package processos.controller.exerciciosprincipais;
 
 import java.io.BufferedReader;
 import java.io.IOException;
