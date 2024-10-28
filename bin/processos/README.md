@@ -6,6 +6,8 @@
 
     [ ✔️ ] - Finalizado.
 
+    [ 🛠️ ] - Finalizado, porém, não está tão fiel ao que foi pedido. Portanto, passível a mudanças futuras.
+
 ## Breve Contexto
 
 - Nesses exercícios foi utilizada uma VM, chamada Virtual Box, para simular uma máquina com o Linux Debian, a fins de resolver algoritmos java em Sistemas Operacionais além do Windows.
@@ -14,8 +16,8 @@
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/view/Principal.java)
-- [☕] - [[RedesController.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/controller/RedesController.java)
+- [☕] - [Principal.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/view/Principal.java)
+- [☕] - [RedesController.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/controller/exerciciosprincipais/RedesController.java)
 
 ### Descrição:
 
@@ -52,8 +54,8 @@
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/view/Principal.java)
-- [☕] - [[KillController.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/controller/KillController.java)
+- [☕] - [Principal.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/view/Principal.java)
+- [☕] - [KillController.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/controller/exerciciosprincipais/KillController.java)
 
 ### Descrição:
 
@@ -92,8 +94,8 @@
 
 (🗺️) - Classes:
 
-- [☕] - [[Principal.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/view/Principal.java)
-- [☕] - [[DistroController.java]](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/controller/DistroController.java)
+- [☕] - [Principal.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/view/Principal.java)
+- [☕] - [DistroController.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/controller/exerciciosprincipais/DistroController.java)
 
 ### Descrição:
 
@@ -119,31 +121,33 @@
 
 ========================================================================================================================================================================================
 
-## [ ❌ ] Exercício 4 - Desafio Exclusivo Windows
-
-(🗺️) - Pasta:
-
-- [📦] - ...
+## [ 🛠️ ] Exercício 4 - Desafio Exclusivo Windows
 
 (🗺️) - Classes:
 
-- [☕] - ...
+- [☕] - [TelaExecutar.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/view/desafio/TelaExecutar.java)
+- [☕] - [SearchController.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/controller/desafio/SearchController.java)
+- [☕] - [RunController.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/controller/desafio/RunController.java)
 
 ### Descrição:
 
-- [ ❌ ] - *Utilizando o Framework Window Builder, criar, em Eclipse, um projeto Java que simula o Executar (Run) do Windows.*
+- [ ✔️ ] - *Criar, em Java, um sistema que simula o Executar (Run) do Windows.*
 
-- [ ❌ ] - *No package view, deve ser criado, com auxílio do framework, conforme figura abaixo, uma tela com um JTextField e 3 botões (OK, Cancelar e Procurar).*
+- [ ✔️ ] - *No package view, deve ser criado, com auxílio do framework, conforme figura abaixo, uma tela com um JTextField e 3 botões (OK, Cancelar e Procurar).*
 
 ![Figura](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/imagens/Imagem%20do%20WhatsApp%20de%202024-10-16%20à(s)%2010.21.40_4f4fabc8.jpg)
 
-- [ ❌ ] - *No package controller, devemos ter:*
+- [ 🛠️ ] - *No package controller, devemos ter:*
 
-    - [ ❌ ] - *Uma classe, chamada SearchController, que receba o JTextField pelo construtor, implementa um ActionListener para executar a ação do botão Procurar. No método ActionPerformed, deve ter uma busca de arquivos executáveis Windows, via JFileChooser, e seleciona o arquivo a ser executado e escreve seu caminho completo no JTextField.*
+    - [ ✔️ ] - *Uma classe, chamada SearchController, que receba o JTextField pelo construtor, implementa um ActionListener para executar a ação do botão Procurar. No método ActionPerformed, deve ter uma busca de arquivos executáveis Windows, via JFileChooser, e seleciona o arquivo a ser executado e escreve seu caminho completo no JTextField.*
 
-    - [ ❌ ] - *Uma classe, chamada RunController, que receba o JTextField e o próprio JFrame da tela pelo construtor, implementa um ActionListener para executar a ação do botão OK. No método ActionPerformed, deve tentar executar o que está escrito no JTextField (O usuário pode digitar o caminho por conta própria, ao invés de procurar). Caso o arquivo seja inválido, dar uma mensagem de erro. Uma vez executado, sem erro, a tela deverá ser finalizada pelo método dispose().*
+    - [ 🛠️ ] - *Uma classe, chamada RunController, que receba o JTextField e o próprio JFrame da tela pelo construtor, implementa um ActionListener para executar a ação do botão OK. No método ActionPerformed, deve tentar executar o que está escrito no JTextField (O usuário pode digitar o caminho por conta própria, ao invés de procurar). Caso o arquivo seja inválido, dar uma mensagem de erro. Uma vez executado, sem erro, a tela deverá ser finalizada pelo método dispose().*
 
-    - [ ❌ ] - *Uma classe, chamada CancelController, que receba o próprio JFrame da tela pelo construtor, implementa um ActionListener para executar a ação do botão Cancelar. O método actionPerformed deve proceder um dispose() da tela.*
+    - [ 🛠️ ] - *Uma classe, chamada CancelController, que receba o próprio JFrame da tela pelo construtor, implementa um ActionListener para executar a ação do botão Cancelar. O método actionPerformed deve proceder um dispose() da tela.*
+
+- *Como ficou a tela:*
+
+![Figura](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/processos/imagens/Imagem%20do%20WhatsApp%20de%202024-10-28%20à(s)%2018.00.22_274a5597.jpg)
 
 ## **Tecnologia(s) utilizadas neste exercício 💻**
 <div style="display: inline_block">
