@@ -41,7 +41,7 @@
 (🗺️) - Classes:
 
 - [☕] - [Principal.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/threads/view/Principal.java)
-- [☕] - []()
+- [☕] - [ThreadMatrizController](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/threads/controller/ThreadMatrizController.java)
 
 ### Descrição:
 
