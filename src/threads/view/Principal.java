@@ -3,6 +3,7 @@ package threads.view;
 import javax.swing.JOptionPane;
 
 import threads.controller.ThreadIdController;
+import threads.controller.ThreadMatrizController;
 
 public class Principal {
     
@@ -33,26 +34,32 @@ public class Principal {
                     
                     case 2:
 
+                    exercicio2();
                         break;
 
                     case 3:
 
+                        exercicio3();
                         break;
 
                     case 4:
 
+                        exercicio4();
                         break;
 
                     case 5:
 
+                        exercicio5();
                         break;
 
                     case 6:
 
+                        exercicio6();
                         break;
 
                     case 7:
 
+                        exercicio7();
                         break;
 
                     case 0:
@@ -88,7 +95,14 @@ public class Principal {
     }
 
     public static void exercicio2() {
-        
+
+        for(int i = 0; i < 3; i++) {
+
+            Thread threadMatrizController = new ThreadMatrizController(i);
+            threadMatrizController.start();
+
+        }
+
     }
 
     public static void exercicio3() {
