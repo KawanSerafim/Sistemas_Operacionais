@@ -12,7 +12,7 @@
 
 - Nesses exercícios foi utilizada uma VM, chamada Virtual Box, para simular uma máquina com o Linux Debian, a fins de resolver algoritmos java em Sistemas Operacionais além do Windows.
 
-## [ ❌ ] Exercício 1
+## [ ✔️ ] Exercício 1
 
 (🗺️) - Classes:
 
@@ -21,7 +21,7 @@
 
 ### Descrição:
 
-- [ ❌ ] - *Fazer uma aplicação que rode 5 Threads que cada uma delas imprima no console o seu número (TID).*
+- [ ✔️ ] - *Fazer uma aplicação que rode 5 Threads que cada uma delas imprima no console o seu número (TID).*
 
 ## **Tecnologia(s) utilizadas neste exercício 💻**
 <div style="display: inline_block">
@@ -157,7 +157,7 @@
 
 ========================================================================================================================================================================================
 
-## [ ❌ ] Exercício 7
+## [ ❌ ] Exercício 7 - Desafio
 
 (🗺️) - Classes:
 

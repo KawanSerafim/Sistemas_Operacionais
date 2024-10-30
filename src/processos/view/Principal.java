@@ -22,7 +22,7 @@ public class Principal {
                         + "1 - Exercicio 1.\n"
                         + "2 - Exercicio 2.\n"
                         + "3 - Exercicio 3.\n"
-                        + "4 - Desafio.\n"
+                        + "4 - Exercicio 4 - Desafio.\n"
                         + "0 - Sair."));
 
                 switch(opcao) {
