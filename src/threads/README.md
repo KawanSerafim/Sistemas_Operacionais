@@ -16,8 +16,8 @@
 
 (🗺️) - Classes:
 
-- [☕] - [Principal.java]()
-- [☕] - [ThreadIdController.java]()
+- [☕] - [Principal.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/threads/view/Principal.java)
+- [☕] - [ThreadIdController.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/threads/controller/ThreadIdController.java)
 
 ### Descrição:
 
@@ -40,7 +40,7 @@
 
 (🗺️) - Classes:
 
-- [☕] - [Principal.java]()
+- [☕] - [Principal.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/threads/view/Principal.java)
 - [☕] - []()
 
 ### Descrição:
@@ -64,7 +64,7 @@
 
 (🗺️) - Classes:
 
-- [☕] - [Principal.java]()
+- [☕] - [Principal.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/threads/view/Principal.java)
 - [☕] - []()
 
 ### Descrição:
@@ -88,7 +88,7 @@
 
 (🗺️) - Classes:
 
-- [☕] - [Principal.java]()
+- [☕] - [Principal.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/threads/view/Principal.java)
 - [☕] - []()
 
 ### Descrição:
@@ -112,7 +112,7 @@
 
 (🗺️) - Classes:
 
-- [☕] - [Principal.java]()
+- [☕] - [Principal.java](https://github.com/KawanSerafim/Sistemas_Operacionais/blob/main/src/threads/view/Principal.java)
 - [☕] - []()
 
 ### Descrição:
