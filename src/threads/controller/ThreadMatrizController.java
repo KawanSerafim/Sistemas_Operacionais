@@ -2,11 +2,12 @@ package threads.controller;
 
 public class ThreadMatrizController extends Thread {
 
-    private int i, j, tid, somatoria;
-    private int[][] matriz  = new int[3][5];
- 
-    public ThreadMatrizController(int tid) {
+    private int tid, i, somatoria;
+    private int[] linha;
 
+    public ThreadMatrizController(int tid, int[] linha) {
+
+        this.linha = linha;
         this.tid = tid;
 
     }
@@ -14,37 +15,21 @@ public class ThreadMatrizController extends Thread {
     @Override
     public void run() {
         
-        geraMatriz();
-        somaLinha();
+        calculaLinha();
         exibeResultado();
-
+        
     }
+        
+    private void calculaLinha() {
 
-    private void geraMatriz() {
-
-        for(int i = 0; i < 5; i++) {
-    
-            for(int j = 0; j < 3; j++)
-                matriz[j][i] = (int)(Math.random() * 9) + 1;
-    
-        }
-
-    }
-
-    private void somaLinha() {
-
-        for(i = 0; i < 5; i++) {
-
-            for(j = 0; j < 3; j++)
-                somatoria += matriz[j][i];
-
-        }
+        for(i = 0; i < linha.length; i++)
+            somatoria = somatoria + linha[i];
 
     }
 
     private void exibeResultado() {
 
-        System.out.println("TID: " + tid + " - Somatoria = " + somatoria);
+        System.out.println("TID: #" + tid + " - Somatoria = " + somatoria);
 
     }
 

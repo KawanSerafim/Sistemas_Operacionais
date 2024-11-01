@@ -2,6 +2,7 @@ package threads.view;
 
 import javax.swing.JOptionPane;
 
+import threads.controller.MatrizController;
 import threads.controller.ThreadIdController;
 import threads.controller.ThreadMatrizController;
 
@@ -96,9 +97,18 @@ public class Principal {
 
     public static void exercicio2() {
 
+        int[][] matriz = new int[3][5];
+        int[] vetor = new int[5];
+
+        MatrizController matrizController = new MatrizController(matriz, 3, 5);
+        matriz = matrizController.geraMatriz();
+
         for(int i = 0; i < 3; i++) {
 
-            Thread threadMatrizController = new ThreadMatrizController(i);
+            for(int j = 0; j < 5; j++) 
+                vetor[j] = matriz[i][j];
+
+            Thread threadMatrizController = new ThreadMatrizController(i, vetor);
             threadMatrizController.start();
 
         }

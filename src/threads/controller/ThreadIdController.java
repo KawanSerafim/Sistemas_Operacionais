@@ -25,7 +25,7 @@ public class ThreadIdController extends Thread {
 
     private void mostraTid() {
         
-        System.out.println("TID: " + tid);
+        System.out.println("TID: #" + tid);
     
     }
 
